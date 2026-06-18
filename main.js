@@ -12,3 +12,6 @@ let port = 8080;
 app.listen(port, () => {
     console.log("Server running on", port);
 });
+
+// another method:
+// console.log(`Server running on port ${PORT}`);
